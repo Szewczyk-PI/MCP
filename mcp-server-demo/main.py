@@ -17,5 +17,9 @@ def check_dns(domain: str, record: str) -> str:
 @mcp.tool("Clean")
 def clean_text(tekst: str) -> str:
     tekst_new = tekst.replace("*", "")
+    tekst_new = tekst_new.replace("`","")
+    tekst_new = tekst_new.replace("#","")
+    tekst_new = tekst_new.replace("|","")
+    tekst_new = tekst_new.replace("--","")
     """Clear tekst from markdown signs"""
     return tekst_new

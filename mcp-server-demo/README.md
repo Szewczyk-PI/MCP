@@ -25,7 +25,7 @@ Lista znalezionych rekordów DNS w formacie tekstowym.
 
 ### 2. Clean Text
 
-Usuwa znaki formatowania Markdown z podanego tekstu (aktualnie obsługuje gwiazdki `*`).
+Usuwa znaki formatowania Markdown z podanego tekstu.
 
 **Parametry:**
 
